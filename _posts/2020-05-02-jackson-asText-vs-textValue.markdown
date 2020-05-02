@@ -12,18 +12,18 @@ Its such a simple thing but its enough to make your mind boggle. I recently spen
 
 ## Debugging
 
-As usual, the debugging process started and we started looking at the returned value from the database and what was getting saved in the database. The code was splattered with *if* and else conditions. One of the things that caught our attention was a seried of  *if* statements written in the form of .
+As usual, the debugging process started and we started looking at the returned value from the database and what was getting saved in the database. The code was splattered with *if* and else conditions. One of the things that caught our attention was a series of  *if* statements written in the form of .
 
 ```java
 if (jsonNode.get(Constants.CATEGORY) != null) {
-        castCategory = jsonNode.get(Constants.CATEGORY).textValue();
+        category = jsonNode.get(Constants.CATEGORY).textValue();
      }
 ```
 
 We knew that these values were getting displayed as "null" in the UI, so it was time to write a quick unit test . 
 
 ```java
-package com.stellapps.smartamcu.processor.farmerCollectionsProcessorV2.validators;
+package com.sample;
 
 import static org.junit.Assert.assertEquals;
 
