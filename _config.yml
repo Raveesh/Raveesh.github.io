@@ -9,15 +9,14 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Raveesh Sharma # add your name
 author-img: Raveesh.jpg # add your photo
-about-author: Beena backend developer for a long time. Obssessed with clean code. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+about-author: Been a backend developer for a long time. Obssessed with clean code. # add description
+social-twitter: https://twitter.com/RaveeshSharma1
 social-github: raveesh # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-linkedin: https://www.linkedin.com/in/raveeshsharma/
+social-email: raveesh.sharma86@gmail.com
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+#discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
